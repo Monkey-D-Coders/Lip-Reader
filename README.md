@@ -79,7 +79,7 @@ The project uses the Grid corpus, which includes 1000 short videos and correspon
 
 After researching and training several models, we have selected the current best model for phase one of submission and for the final submission.
 
-![Model Architecture](model.png)
+![Model Architecture](app/data/model.png)
 
 ## Model Training
 - Utilizing the CTC loss function.
