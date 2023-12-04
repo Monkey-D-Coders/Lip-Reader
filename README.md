@@ -79,7 +79,7 @@ The project uses the Grid corpus, which includes 1000 short videos and correspon
 
 After researching and training several models, we have selected the current best model for phase one of submission and for the final submission.
 
-![Model Architecture](app/data/model.png)
+![Model Architecture](app/photos/model.png)
 
 ## Model Training
 - Utilizing the CTC loss function.
@@ -130,7 +130,7 @@ We trained our model on 34 individual people with different skin tones, differen
 ### App Contents
 
 #### Video Selection Bar
-![Video Selection Bar](bar.png)
+![Video Selection Bar](app/photos/bar.png)
 
 By this bar, you can select to predict a sentence on an existing video or upload* your own video on which you want to predict a sentence.
 
@@ -140,22 +140,22 @@ For now, it is just showcasing the app and its description, but later we will ma
 #### Video Preview
 In this tab, there will be a preview of the video that you have selected/uploaded*. In this section, to make sure we can process videos with any extensions, we are converting that to MP4 format. You can find this at the middle left part of the app.
 
-![Original Video](ogvid.png)
+![Original Video](app/photos/ogvid.png)
 
 #### What Your Model Actually Takes as Input
 In this section, we have made users visualize the model input by animating the 75 preprocessed images to a GIF with 10 frames per second. You can find this at the middle right part of the app.
 
-![Model Input Visualization](gif.png)
+![Model Input Visualization](app/photos/gif.png)
 
 #### Output / Prediction
 In this section, we have shown raw model output as a tensor and along with decoded sentence corresponding to that tensor. You can find this at the bottom right part of the app.
 
-![Model Output](op.png)
+![Model Output](app/photos/op.png)
 
 ### App UI
 This is the complete UI of our current developed app:
 
-![App UI](app.png)
+![App UI](app/photos/app.png)
 
 ## Tasks Done In Final Submission
 - Training model after fine-tuning it on 34000 videos (before it was only trained on 1000).
